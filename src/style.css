@@ -1,0 +1,63 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+:root{
+    --nav-bg:#fdf4ff;
+    --header-font: "Creepster", system-ui;
+    --heading-color: #be123c;
+}
+
+body{
+    background: url(./img/piz.jpg) no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+header{
+    display: flex;
+    /* background-color: var(--nav-bg);
+    opacity: 0.3; */
+    padding-top: 2vh;
+    justify-content: end;
+    align-items: end;
+    padding-right: 2%;
+}
+
+#nav-bar{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: end;
+    gap: 5vw;
+    padding-right: 2%;
+}
+
+button{
+    padding: 2% 5%;
+    background: transparent;
+    border: 1px solid white;
+    color: white;
+}
+
+#content{
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-top: 10%;
+}
+
+.heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: var(--header-font);
+    font-size: clamp(2rem, 5vw, 5rem);
+    color: var(--heading-color);
+}
+
+.introPara{
+    font-size: clamp(1.5rem, 2vw, 3rem);
+    color: whitesmoke;
+    font-weight: 800;
+}
+
