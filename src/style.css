@@ -7,10 +7,11 @@
     --nav-bg:#fdf4ff;
     --header-font: "Creepster", system-ui;
     --heading-color: #be123c;
+    --para-font : "Bebas Neue", sans-serif;
 }
 
 body{
-    background: url(./img/piz.jpg) no-repeat;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url(./img/piz.jpg) no-repeat;
     background-size: cover;
     background-attachment: fixed;
 }
@@ -33,12 +34,24 @@ header{
     padding-right: 2%;
 }
 
-button{
+button {
     padding: 2% 5%;
-    background: transparent;
-    border: 1px solid white;
-    color: white;
+    background-color: transparent;
+    color: #b4b4b4;
+    border: none;
+    border-radius: .2rem;
+    /* padding: .8rem 2.8rem; */
+    cursor: pointer;
+    font-size: 1.6rem;
+    font-weight: 400;
+    font-family: var(--para-font);
 }
+
+button.active, button:focus-visible {
+    color: white;
+    border-bottom: 1px solid orange;
+}
+
 
 #content{
     padding-left: 20%;
@@ -58,6 +71,52 @@ button{
 .introPara{
     font-size: clamp(1.5rem, 2vw, 3rem);
     color: whitesmoke;
-    font-weight: 800;
+    /* font-weight: 800; */
+    font-family: var(--para-font);
 }
+
+/* ABOUT PAGE */
+
+.aboutPara{
+    font-size: clamp(1.5rem, 2vw, 3rem);
+    color: whitesmoke;
+    /* font-weight: 800; */
+    font-family: var(--para-font);
+}
+
+
+/* MENU */
+
+/* style.css */
+
+.menu-container {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-family: var(--para-font);
+    font-size: 2rem;
+}
+
+.menu-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.menu-list li {
+    margin-bottom: 10px;
+}
+
+.item-name {
+    font-weight: bold;
+}
+
+.item-price {
+    float: right;
+}
+
+
+
+
 
