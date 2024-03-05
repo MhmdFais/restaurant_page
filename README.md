@@ -5,10 +5,10 @@ New book can be added using the add new button. Click here to visit the site [__
 
 ## Technologeies Used
 
-*HTML5 (ONLY THE BOILER PLATE)
-*CSS
-*JS (ALL THE PAGES ARE CREATED WITH JS)
-*WebPack
+* HTML5 (ONLY THE BOILER PLATE)
+* CSS
+* JS (ALL THE PAGES ARE CREATED WITH JS)
+* WebPack
 
 ## Main Goal
 

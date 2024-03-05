@@ -1,16 +1,21 @@
 {
+  "homepage": "https://MhmdFais.github.io/restaurant_page",
   "name": "restaurant_landing_page",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "rest-test": "git subtree push --prefix dist origin gh-pages"
+    "rest-test": "git subtree push --prefix dist origin gh-pages",
+    "predeploy":"npm run build",
+    "deploy":"gh-pages -d dist",
+    "build": "webpack --mode production"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "css-loader": "^6.10.0",
+    "gh-pages": "^6.1.1",
     "style-loader": "^3.3.4",
     "webpack": "^5.90.3",
     "webpack-cli": "^5.1.4"
