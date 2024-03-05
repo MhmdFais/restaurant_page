@@ -11,7 +11,7 @@ New book can be added using the add new button. Click here to visit the site [**
 
 ## Installation
 
-1. Clone the repository using `git clone
+1. Clone the repository using `git clone` command.
 2. Run `npm install` to install the dependencies.
 3. Run `npm run build` to build the project.
 4. Run `npm run deploy` to start the server.
